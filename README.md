@@ -106,9 +106,9 @@ BOT_TOKEN=1234567890:ABCdefGHIjklMNOpqrSTUvwxYZ
 BOT_ADMIN_ID=123456789
 
 # Bridge API (AI)
-BRIDGE_API_URL=https://bridge-back.admlr.lipetsk.ru/api/v1/chat/completions
-BRIDGE_API_KEY=ваш-ключ-api
-BRIDGE_MODEL=cifra48/agent
+BRIDGE_API_URL=https://example.com/v1/chat/completions
+BRIDGE_API_KEY=your-api-key-here
+BRIDGE_MODEL=model-name
 
 # База данных (можно не менять)
 DB_PATH=expenses.db
@@ -365,7 +365,7 @@ pip install -r requirements.txt
 | python-dotenv | 1.0.0 | Загрузка .env |
 | requests | 2.31.0 | HTTP запросы к AI |
 | SQLite | (встроенная) | База данных |
-| Bridge API | - | AI для парсинга и анализа |
+| Bridge API | - | AI API для парсинга и анализа |
 
 ---
 
